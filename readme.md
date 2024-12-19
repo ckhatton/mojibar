@@ -1,6 +1,12 @@
-# Mojibar [![Travis CI build status](https://img.shields.io/travis/muan/mojibar.svg)](https://travis-ci.org/muan/mojibar) [![JS Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard) [![Greenkeeper badge](https://badges.greenkeeper.io/muan/mojibar.svg)](https://greenkeeper.io/)
+# Mojibar
 
 A menubar app adaptation of [Emoji searcher](http://emoji.muan.co).
+
+> ⚠️ **Note:**
+>
+> This is a detached fork of the original [Mojibar](https://github.com/muan), which has been archived. This fork is a little more up-to-date, with updated emojilib version and audits the other packages, though lacking an offical release at the moment.
+>
+> For now, you can just copy the `package.json` and `package-lock.json` files into the app. You can do this be first making sure the app is closed (`cmd`+`q` when the emoji selector is open) and then right-clicking on the app icon in Applications and then selecting "Show Package Contents", then root to `Contents > Resources > app`. Replace the two files there.
 
 ![screenshot](https://cloud.githubusercontent.com/assets/1153134/12583324/7756a38a-c485-11e5-9388-3b5c61743905.gif)
 
@@ -8,84 +14,63 @@ A menubar app adaptation of [Emoji searcher](http://emoji.muan.co).
 
 ### OSX
 
-#### :triangular_flag_on_post: Download and drag
-
-[Download the latest version for Mac on the releases page](https://github.com/muan/mojibar/releases) (and drag into your apps folder.)
-
-#### :triangular_flag_on_post: Install using [Homebrew Cask](https://caskroom.github.io/)
-
-```bash
-# Make sure homebrew knows about the latest mojibar
-$ brew update && brew upgrade brew-cask
-# Install mojibar
-$ brew cask install mojibar
-```
-
-After installation, find Mojibar in your apps folder or search Mojibar in spotlight. Mojibar will appear in your tray at the top right corner of your screen.
-
-To upgrade mojibar installed from brew-cask to a newer version:
-
-```
-$ brew cask reinstall mojibar
-```
+Download the latest version for Mac on the [releases page](https://github.com/ckhatton/mojibar/releases) (and drag into your apps folder).
 
 ### Linux
 
-#### :triangular_flag_on_post: Download and drag
+Download the latest version for Linux on the [releases page](https://github.com/ckhatton/mojibar/releases) (and drag into your apps folder).
 
-[Download the latest version for Linux on the releases page](https://github.com/muan/mojibar/releases) (and drag into your apps folder.)
-
-You can use it without install any font, but the not all emoji will work, to get all emoji list you can try these approach:
+You can use it without installing any font, but the not all emoji will work, to get all emoji list you can try these approach:
 
 1. **Color** – Follow [these instructions](http://stdio.tumblr.com/post/114082931782)
 1. **Black and White** – Download this [emoji font](https://github.com/eosrei/emojione-color-font)
 
 ## Usage
 
-<kbd>control + shift + space</kbd><br>
+`control` + `shift` + `space`
 Open app.
 
-<kbd>command/control + ,</kbd><br>
+`command/control` + `,`
 Open preference (while window is open).
 
-<kbd>👆/👇/👈/👉</kbd><br>
+⬆️/⬇️/⬅️/➡️
 Navigate between emojis.
 
-<kbd>enter</kbd><br>
+`enter`
 Copy emoji unicode char and exit. For example: `💩`.
 
-<kbd>shift + enter</kbd><br>
+`shift` + `enter`
 Copy emoji code and exit. For example: `:poop:`.
 
-<kbd>space</kbd><br>
+`space`
 Next page.
 
-<kbd>shift + space</kbd><br>
+`shift` + `space`
 Previous page.
 
-<kbd>/</kbd><br>
+`/`
 Jump to the search field.
 
-<kbd>esc</kbd><br>
+`esc`
 Exit.
 
-<kbd>command/control + q</kbd><br>
+`command/control` + `q`
 Quit Mojibar (while window is open).
 
 ## Build
 
 :construction:
 
-```
-$ git clone https://github.com/muan/mojibar.git
-$ cd mojibar
-$ npm install
-$ npm start
+```sh
+> git clone https://github.com/ckhatton/mojibar.git
+> cd mojibar
+> npm install
+> npm start
 ```
 
-## Built with
+## Built With
 
 - [maxogden/menubar](https://github.com/maxogden/menubar)
 - [muan/emojilib](https://github.com/muan/emojilib)
 
-## :heart:
+❤️
