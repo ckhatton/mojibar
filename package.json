@@ -24,12 +24,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muan/mojibar.git"
+    "url": "git+https://github.com/ckhatton/mojibar.git"
   },
-  "author": "Mu-An Chiou <me@muanchiou.com>",
+  "author": "Mu-An Chiou <me@muanchiou.com> (https://muan.co/)",
+  "contributors": [
+    {
+      "name": "Christopher Hatton",
+      "email": "mail@ckhatton.com",
+      "url": "https://ckhatton.com/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/muan/mojibar/issues"
+    "url": "https://github.com/ckhatton/mojibar/issues"
   },
-  "homepage": "https://github.com/muan/mojibar#readme"
+  "homepage": "https://github.com/ckhatton/mojibar#readme"
 }
